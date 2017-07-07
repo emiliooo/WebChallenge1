@@ -1,0 +1,397 @@
+@font-face {
+    font-family: TitilliumLight;
+    src: url('fonts/TitilliumText22L-Light.otf').format('otf');
+
+    font-family: TitilliumMedium;
+    src: url('fonts/TitilliumMedium.otf').format('otf');
+}
+
+body{
+	background:url('IMG/background.png') no-repeat center center fixed;
+    background-size:cover;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#RegForm{
+	width: 400px;
+	height: 424px;
+	border:18px solid rgba(0,0,0,0.3);
+	background-color:#f4f4f4;
+	background-clip: padding-box;
+	border-radius: 4px;
+}
+#RegForm input[type="submit"]
+{
+     width: 338px;
+     height: 48px;
+     display: block;
+     margin: 35px auto;
+     border-radius: 6px;
+     background: linear-gradient(to bottom, #addc54 0%, #7ec31f 100%);
+     clear:both;
+     color:white;
+     font-size: 20pt;
+     outline-style:none;
+     cursor:pointer;
+
+}
+#RegForm3 input[type="submit"]  
+{
+     width: 338px;
+     height: 48px;
+     display: block;
+     margin: 35px auto;
+     border-radius: 6px;
+     background: linear-gradient(to bottom, #addc54 0%, #7ec31f 100%);
+     clear:both;
+     color:white;
+     font-size: 20pt;
+     outline-style:none;
+     cursor:pointer;
+
+}
+#left_button
+{
+     width: 148px;
+     height: 40px;
+     display: block;
+     border-radius: 6px;
+     background: linear-gradient(to bottom, #addc54 0%, #7ec31f 100%);
+     clear:both;
+     color:white;
+     font-size: 15pt;
+     outline-style:none;
+     cursor:pointer;
+}
+#right_button
+{
+     width: 148px;
+     height: 40px;
+     display: block;
+     border-radius: 6px;
+     background: linear-gradient(to bottom, #f65e70 0%, #f13949 100%);
+     clear:both;
+     color:white;
+     font-size: 15pt;
+     outline-style:none;
+     cursor:pointer;
+}
+#button_wrap{
+    width: 148px;
+    height: 40px;
+    display: block;
+    border-radius: 6px;
+    background: linear-gradient(to bottom, #addc54 0%, #7ec31f 100%);
+    clear: both;
+    color: white;
+    font-size: 20px;
+    outline-style:none;
+    cursor:pointer;
+}
+#right_button_recovery{
+     width: 148px;
+     height: 40px;
+     display: block;
+     border-radius: 6px;
+     background: linear-gradient(to bottom, #addc54 0%, #7ec31f 100%);
+     clear:both;
+     color:white;
+     font-size: 15pt;
+     opacity: 0.555;
+     outline-style:none;
+     cursor:pointer;
+}
+
+#RegForm input[type="text"],
+#RegForm2 input[type="text"],
+#RegForm3 input[type="text"],
+#RegForm4 input[type="text"],
+#RegForm5 input[type="text"]
+{
+    width: 208px;
+    height: 40px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 7px;
+    padding: 0 65px;
+    color:#afafaf;
+    outline-style:none;
+    border: 1px solid #c6c6c6;
+    background: transparent;
+    cursor:pointer;
+}
+#last{
+	background: transparent;
+    width: 340px;
+    height: 40px;
+    margin: 10px auto !important;
+    display: block;
+    border-radius: 7px;
+}
+
+ .form1 p,
+ .form2 p ,
+ .form3 p ,
+ .form4 p,
+ .form5 p
+ {
+	text-align: center;
+	width: 436px;
+	color:white;
+	font-size: 32px;
+	margin:13px 0px;
+    font-family: 'TitilliumMedium';
+}
+.agree {
+    width: 384px;
+    margin: 0 23px;
+    font-size: 17px;
+    float:left;
+}
+
+.checkbox,
+.checkbox2,
+.checkbox3{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    color:transparent;
+    float:left;
+}
+
+.checkbox input[type="checkbox"],
+.checkbox2 input[type="checkbox"],
+.checkbox3 input[type="checkbox"]{
+    visibility: hidden;
+}
+.checkbox label,
+.checkbox2 label{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background-color:transparent;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    margin-top: -13px;
+    cursor: pointer;
+}
+.checkbox3 label{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background-color:transparent;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.checkbox label:active,
+.checkbox2 label:active
+.checkbox3 label:active{
+   border: 2px solid grey;
+}
+label:before{
+    content: '';
+    width: 12px;
+    height: 12px;
+    border: 1px solid #c6c6c6;
+    position: absolute;
+    background-color: #8ac915;
+    top: 5px;
+    border-radius: 3px;
+    left: 5px;
+    opacity: 0;
+}
+input[type="checkbox"]:checked + label:before{
+    opacity:1;
+}
+
+.wrap{
+    width: 340px;
+    margin: 23px auto;
+}
+ .checkboxtxt,
+ .checkboxtxt2 {
+    width: 300px;
+    margin: 3px 39px;
+    color:#afafaf;
+}
+.checkboxtxt3 {
+    width: 100px;
+    margin: 3px 39px;
+    color:#afafaf;
+}
+#username{
+    background: url(IMG/icons/user.png) left no-repeat;
+    background-size: 25px 25px;
+    width: 25px;
+    height: 40ox;
+    height: 25px;
+    position: absolute;
+    border-radius: 1px solid #afafaf;
+    margin: 7px 17px;
+    border-right: 1px solid #dedede;
+    padding: 0px 5px;
+}
+#password{
+    background: url(IMG/icons/lock.png) left no-repeat;
+    background-size: 25px 25px;
+    width: 25px;
+    height: 40px;
+    height: 25px;
+    position: absolute;
+    border-radius: 1px solid #afafaf;
+    margin: 7px 17px;
+    border-right: 1px solid #dedede;
+    padding: 0px 5px;
+}
+#email{
+    background: url(IMG/icons/envelope.png) left no-repeat;
+    background-size: 25px 17px;
+    width: 25px;
+    height: 40ox;
+    height: 17px;
+    position: absolute;
+    border-radius: 1px solid #afafaf;
+    margin: 13px 17px;
+    border-right: 1px solid #dedede;
+    padding: 0px 5px;
+}
+#location{
+    background: url(IMG/icons/google_maps.png) left no-repeat;
+    background-size: 19px 21px;
+    width: 21px;
+    height: 40ox;
+    height: 24px;
+    position: absolute;
+    border-radius: 1px solid #afafaf;
+    margin: 11px 22px;
+    border-right: 1px solid #dedede;
+    padding: 0px 5px;
+}
+#phone{
+    background: url(IMG/icons/phone.png) left no-repeat;
+    background-size: 18px 28px;
+    width: 22px;
+    height: 40ox;
+    height: 27px;
+    position: absolute;
+    border-radius: 1px solid #afafaf;
+    margin: 8px 22px;
+    border-right: 1px solid #dedede;
+    padding: 0px 5px;
+}
+select{
+    width: 340px;
+    height: 42px;
+    margin-bottom: 18px;
+    padding: 0 65px;
+    border-radius: 7px;
+    background: transparent;
+    color: #afafaf;
+    outline-style:none;
+}
+select{
+    background: #f4f4f4;
+    color: #afafaf;
+    cursor:pointer;
+}
+.form_top{
+    width: 1000px;
+    margin:0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+.form1 ,
+.form2{
+    margin: 50px;
+    font-family: 'TitilliumMedium';
+}
+.form3{
+    margin: -140px 50px;
+}
+.form4{
+   margin: -30px 50px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    opacity: 0.2;
+    margin: 56px 0;
+}
+#RegForm2{
+    width: 400px;
+    height: 210px;
+    border:18px solid rgba(0,0,0,0.3);
+    background-color:#f4f4f4;
+    background-clip: padding-box;
+    border-radius: 4px;
+}
+#RegForm3{
+    width: 400px;
+    height: 500px;
+    border:18px solid rgba(0,0,0,0.3);
+    background-color:#f4f4f4;
+    background-clip: padding-box;
+    border-radius: 4px;
+}
+#RegForm4{
+    width: 400px;
+    height: 150px;
+    border:18px solid rgba(0,0,0,0.3);
+    background-color:#f4f4f4;
+    background-clip: padding-box;
+    border-radius: 4px;
+}
+#RegForm5{
+    width: 400px;
+    height: 210px;
+    border:18px solid rgba(0,0,0,0.3);
+    background-color:#f4f4f4;
+    background-clip: padding-box;
+    border-radius: 4px;
+}
+.wrap_flex {
+    display: flex;
+    max-width: 100%;
+    width: 972px;
+    justify-content: flex-end;
+}
+.wrap textarea {
+    background: transparent;
+    border-radius: 5px;
+    color:#afafaf;
+    height: 225px;
+    outline-style:none;
+}
+.wrap_log ,.log_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+@media (max-width: 1088px) {
+    
+   .form4{
+         margin: 0 50px;
+         } 
+    .wrap_flex{
+        justify-content:center;
+    }
+    .form3{
+    margin: 0 50px;
+    }
+
+
+
+}
