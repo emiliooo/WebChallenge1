@@ -416,6 +416,9 @@ input[type="checkbox"]{
 #c3:checked + label span{
        opacity: 1
 }
+.test{
+    
+}
 
 @media (max-width: 1088px) {
     
