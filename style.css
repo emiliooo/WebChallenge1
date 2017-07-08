@@ -27,7 +27,7 @@ body{
 }
 #RegForm input[type="submit"]
 {
-     width: 338px;
+     width: 340px;
      height: 48px;
      display: block;
      margin: 35px auto;
@@ -42,10 +42,10 @@ body{
 }
 #RegForm3 input[type="submit"]  
 {
-     width: 338px;
+     width: 340px;
      height: 48px;
      display: block;
-     margin: 28px auto;
+     margin: 36px auto;
      border-radius: 6px;
      background: linear-gradient(to bottom, #addc54 0%, #7ec31f 100%);
      clear:both;
@@ -161,6 +161,10 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 .wrap{
     width: 340px;
     margin: 23px auto;
+}
+.wrap2{
+    width: 340px;
+    margin: 18px auto;
 }
  .checkboxtxt {
     width: 300px;
@@ -316,10 +320,13 @@ select{
 .wrap textarea {
     background: transparent;
     border-radius: 5px;
-    color:#afafaf;
-    height: 225px;
-    width: 333px;
-    outline-style:none;
+    color: #afafaf;
+    height: 200px;
+    width: 315px;
+    padding: 12px;
+    max-width: 341px;
+    max-height: 219px;
+    outline-style: none;
 }
 .wrap_log ,.log_wrap{
     display: flex;
@@ -410,7 +417,6 @@ input[type="checkbox"]{
        opacity: 1
 }
 
-
 @media (max-width: 1088px) {
     
    .form4{
@@ -422,6 +428,4 @@ input[type="checkbox"]{
     .form3{
     margin: 0 50px;
     }
-
-
 }
